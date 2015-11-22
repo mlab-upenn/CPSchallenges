@@ -1,0 +1,64 @@
+ \section{Safety of Autonomous Vehicle Planning}
+ 
+ \subsection{Motivation}
+  Each year there are more than 1.24 million traffic fatalities around the world \cite{Waldrop2015}. Estimates indicate that more than 90 percent of all accidents are due to driver error \cite{Waldrop2015}. It is clear that competent autonomous vehicles (AVs) could drastically reduce the occurrence of such incidents, but the question remains as to how to judge when AVs are ready to graduate from research laboratories and enter the hands of the public. One thing is clear, the public will want significant evidence that AVs are indeed safe \cite{weld1994first}. Should AVs become widespread, significant design, ethical, and legal questions remain regarding the \emph{behavior} of such vehicles in \emph{scenarios} which they crash. 
+  
+  Prototype AVs have driven millions of miles and are even being certified for \emph{testing} on public roads in some states \cite{Iozzio2014}; however, manufacturers cannot \emph{verify} the safety of even the simplest of scenarios in the presence of other dynamic traffic participants. To compound the difficultly of vehicle certification, vehicle manufacturers such as Tesla are transitioning to frequent over-the-air software updates. 
+  
+  It is still uncertain who, exactly, will be liable for the actions of AVs, but it appears that manufacturers will take one of two approaches: (1) assume liability for the actions of the vehicle and self-insure \cite{volvo15Liability} (2) force the human occupants of an AV to make all critical decisions and shift liability to the pilot. In either case, even if AVs reduce accidents by 99 percent, it is likely that the 1 percent of remaining accidents will invariably spawn a myriad of legal actions against manufacturers \cite{russell2015research}. 
+  
+  Regardless of where legal liability falls it is clear that we need new, practical methods for verification and validation of the planning elements of each AV, both to assure the public that the vehicles are safe, and to mitigate legal disputes. Furthermore, it is clear that verification must be automatic, exhaustive, and expedient for clearly defined scenarios. If such \emph{verification} methods are to be useful then we must also \emph{validate} that we precisely and formally describe desireable ethics for autonomous agents (a task nearly as daunting as verification itself).	
+ 
+ \subsection{Why its hard}
+ \begin{itemize}
+ 	\item Naive approach: test. $10^{14}$ simulations in order to test 10 samples from eacg state of two 7 DOF vehicles 
+ 	\item Two sources of difficultly: underlying software is very complex and features both discrete decisions and continuous dynamics
+ 	\begin{itemize}
+ 		\item Requires hybrid systems formalism for model description
+ 		\item Numerous undecideablity results for hybrid systems.
+ 	\end{itemize}
+ 	\item How to describe possible actions of other traffic participants in a way that doesn't render all plans unsafe. Sitting on the side of the road for 2 hours is not an option. 
+ \end{itemize}
+ 
+ \subsection{The current approach}
+\emph{A tougher problem, says Thrun, is teaching the car how to respond to what he calls “the long tail of unlikely events”. Early on, he says, the Google team developed algorithms for handling frequent, obvious challenges such as intersections or rain-slicked roadways. But as the cars drove for thousands of kilometres, they recorded oddball events such as a plastic bag blowing across the motorway or a couch sitting in the middle of the road. “There were many more of those than we believed in the beginning,” says Thrun. The only way to handle such rare events has been to record them as they arise, devise responses with the help of high-powered machine-learning algorithms — and then test those solutions with simulations and yet more driving.
+} 
+ \subsection{The APEX approach}
+ \begin{itemize}
+ 	\item Make the most of rare events and scenarios, given one find every possible instantiation and prove it is impossible for solution to make a decision leading to crash.
+ 	\item Convert brute force search over real intervals, which we note to be impossible, to sequence of bounded reachability problems \cite{gao2013satisfiability}
+ 	\item Capture output of trajectory generation and optimization based methods outside of verification framework. Investigate the output by running it through realistic vehicle dynamics.
+	 	\begin{itemize}
+	 		\item Allows for use of realistic planning software
+	 		\item Modular can be replaced on vehicle by vehicle basis. 
+	 		\item Could include models of human drivers. 
+	 	\end{itemize}
+ \end{itemize}
+ 
+ \subsection{Future Challenges}
+ \begin{itemize}
+	 \item Ethics for vehicles
+	 \emph{In the literature on robot ethics, it remains arguable whether artificial agents without free
+will can truly exhibit moral behavior [1]. However, it seems certain that other road users
+and society will interpret the actions of automated vehicles and the priorities placed by their
+programmers through an ethical lens. Whether in a court of law or the court of public opinion,
+the control algorithms that determine the actions of automated vehicles will be subject
+to close scrutiny after the fact if they result in injury or damage. In a less dramatic, if no
+less important, manner, the way these vehicles move through the social interactions that
+define traffic on a daily basis will strongly influence their societal acceptance. This places
+a considerable responsibility on the programmers of automated vehicles to ensure their
+control algorithms collectively produce actions that are legally and ethically acceptable to
+humans.}
+		 \begin{itemize}
+		 	\item Trolley problem
+		 	\begin{itemize}
+		 		\item Level of semantic detail and embellishment added to such scenarios is unrealistic.
+		 		\item The first vehicles to market will simply be programmed with a concept of forward safety.
+		 		\item No manufacturer will ever program an autonomous vehicle to swerve into another vehicle. The pretense of such problems is ridiculous.
+		 		\item Trolley problem does not have a correct solution, instead we should be asking how can we prove that \emph{trolley problems cannot occur based on decisions made by an autonomous agent}
+		 	\end{itemize}
+		 \end{itemize}
+	 \item Learned Behaviors and Cost Functions
+	 \item Hierarchical Property Satisfaction
+	 \item Online Verification 
+ \end{itemize}

@@ -1,0 +1,439 @@
+\begin{thebibliography}{10}
+
+\bibitem{recalls}
+{List of Device Recalls, U.S. Food and Drug Admin., (last visited Jul. 19,
+  2010).}
+
+\bibitem{medstats1}
+W.~H. Maisel, M.~O. Sweeney, W.~G. Stevenson, K.E. Ellison, and L.~M. Epstein.
+\newblock Recalls and safety alerts involving pacemakers and implantable
+  cardioverter-defibrillator generators.
+\newblock {\em J. American Med. Ass.}, 286:793--799, 2001.
+
+\bibitem{killedbycode}
+K.~Sandler, L.~Ohrstrom, L.~Moy, and R.~McVay.
+\newblock {Killed by Code: Software Transparency in Implantable Medical
+  Devices}.
+\newblock {\em Software Freedom Law Center}, 2010.
+
+\bibitem{autosar}
+{AUTOSAR website: www.autosar.org/}.
+
+\bibitem{AVSI}
+{AVSI website: http://www.avsi.aero}.
+
+\bibitem{hcmdss}
+I.~Lee, George~J. Pappas, Rance Cleaveland, John Hatcliff, Bruce~H. Krogh,
+  Peter Lee, Harvey Rubin, and Lui Sha.
+\newblock {High-Confidence Medical Device Software and Systems}.
+\newblock {\em IEEE Computer}, 39(4):139--148, 2006.
+
+\bibitem{challenge2}
+A.~O. Gomes and M.~V. Oliveira.
+\newblock {Formal Specification of a Cardiac Pacing System}.
+\newblock In {\em Proceedings of the 2nd World Congress on Formal Methods}, FM
+  '09, pages 692--707. Springer-Verlag, 2009.
+
+\bibitem{challenge3}
+E.~Jee, I.~Lee, and O.~Sokolsky.
+\newblock {Assurance Cases in Model-Driven Development of the Pacemaker
+  Software}.
+\newblock In {\em Leveraging Applications of Formal Methods, Verification, and
+  Validation}, volume 6416 of {\em LNCS}, pages 343--356. 2010.
+
+\bibitem{med-form2}
+R.~Alur, D.~Arney, E.~L. Gunter, I.~Lee, J.~Lee, W.~Nam, F.~Pearce,
+  S.~Van~Albert, and J.~Zhou.
+\newblock {Formal Specifications and Analysis of the Computer-Assisted
+  Resuscitation Algorithm (CARA) Infusion Pump Control System}.
+\newblock {\em Intl. Journal on Software Tools for Technology Transfer (STTT)},
+  5:308--319, 2004.
+
+\bibitem{med-form1}
+Annette ten Teije~et. al.
+\newblock {Improving medical protocols by formal methods}.
+\newblock {\em Artificial Intelligence in Medicine}, 36(3):193 -- 209, 2006.
+
+\bibitem{testing_imd}
+J.~M. Cortner.
+\newblock {Testing Implantable Medical Devices}.
+\newblock {\em Global Healthcare Medical Device Manufacturing Technology},
+  pages 2--4, 2003.
+
+\bibitem{Vip}
+{\em {Medtronic ViP-II Virtual Interactive Patient: User's Manual Software
+  v1.5}}.
+\newblock Rivertek Medical Systems, 2006.
+
+\bibitem{rushby}
+John Rushby.
+\newblock Verified software: Theories, tools, experiments.
+\newblock chapter Automated Test Generation and Verified Software, pages
+  161--172. Springer-Verlag, 2008.
+
+\bibitem{pauljones}
+{Personal communication with Paul L. Jones, Senior Systems/Software Engineer,
+  Office of Science and Engineering Laboratories, Center for Devices and
+  Radiological Health, US FDA. August, 2010}.
+
+\bibitem{vhm_proc}
+Zhihao Jiang, Miroslav Pajic, and Rahul Mangharam.
+\newblock {Cyber-Physical Modeling of Implantable Cardiac Medical Devices}.
+\newblock {\em {Proceeding of IEEE, Special Issue on Cyber-Physical Systems}},
+  2011.
+
+\bibitem{vhm_tacas12}
+Z.~Jiang, M.~Pajic, S.~Moarref, R.~Alur, and R.~Mangharam.
+\newblock {Modeling and Verification of a Dual Chamber Implantable Pacemaker}.
+\newblock In {\em TACAS'12: 18th Conf. on Tools and Algorithms for the
+  Construction and Analysis of Systems}. 2012.
+
+\bibitem{timed_automata}
+R.~Alur and D.~L. Dill.
+\newblock {A Theory of Timed Automata}.
+\newblock {\em Theoretical Computer Science}, 126:183--235, 1994.
+
+\bibitem{timed-aut}
+R.~Alur.
+\newblock {\em {Timed Automata}}.
+\newblock Lecture Notes in Computer Science, Springer, 1999.
+
+\bibitem{BDL04}
+G.~Behrmann, A.~David, and K.G. Larsen.
+\newblock A tutorial on uppaal.
+\newblock In {\em Formal Methods for the Design of Real-Time Systems (revised
+  lectures)}, volume 3185 of {\em LNCS}, pages 200--237, 2004.
+
+\bibitem{uppaal}
+K.G. Larsen, Paul Pettersson, and Wang Yi.
+\newblock {Uppaal in a Nutshell}.
+\newblock {\em International Journal on Software Tools for Technology Transfer
+  (STTT)}, pages 134--152, 1997.
+
+\bibitem{uppaal_tut}
+Gerd Behrmann, Alexandre David, and Kim~G. Larsen.
+\newblock {A Tutorial on Uppaal}.
+\newblock {\em Formal Methods for the Design of Real-Time Systems, Lecture
+  Notes in Computer Science}, pages 200--236, 2004.
+
+\bibitem{vhm_ecrts10}
+Zhihao Jiang, M.~Pajic, A.~Connolly, S.~Dixit, and R.~Mangharam.
+\newblock {Real-Time Heart Model for Implantable Cardiac Device Validation and
+  Verification}.
+\newblock In {\em 22nd Euromicro Conference on Real-Time Systems (ECRTS)},
+  pages 239 --248, July 2010.
+
+\bibitem{vhm_embc11}
+Z.~Jiang and R.~Mangharam.
+\newblock {Modeling Cardiac Pacemaker Malfunctions with the Virtual Heart
+  Model}.
+\newblock {\em {33rd Intl. Conf. IEEE Engineering in Medicine and Biology
+  Society}}, 2011.
+
+\bibitem{vhm_iccps11}
+Z.~Jiang, M.~Pajic, and R.~Mangharam.
+\newblock {Model-based Closed-loop Testing of Implantable Pacemakers}.
+\newblock In {\em {ICCPS'11: ACM/IEEE 2nd Intl. Conf. on Cyber-Physical
+  Systems}}, 2011.
+
+\bibitem{stateflow}
+{Matlab R2011a Documentation $\rightarrow$ Stateflow}.
+\newblock {http://www.mathworks.com/help/toolbox/stateflow}.
+
+\bibitem{volkswagen}
+A.~Kohler and T.~Reck.
+\newblock {AUTOSAR-Compliant Functional Modeling with MATLAB, Simulink,
+  Stateflow and Real-Time Workshop Embedded Coder of a Serial Comfort Body
+  Controller}.
+\newblock {\em MathWorks Automotive Conference}, 2007.
+
+\bibitem{vhm_rtas12}
+M.~Pajic, Z.~Jiang, O.~Sokolsky, I.~Lee, and R.~Mangharam.
+\newblock {From Verification to Implementation: A Model Translation Tool and a
+  Pacemaker Case Study}.
+\newblock In {\em {18th IEEE Real-Time and Embedded Technology and Applications
+  Symposium (IEEE RTAS)}}, 2012.
+
+\bibitem{vhm_website}
+{Virtual Heart Model website - http://medcps.org}.
+
+\bibitem{pcs_iccps10}
+David Arney, Miroslav Pajic, Julian~M. Goldman, Insup Lee, Rahul Mangharam, and
+  Oleg Sokolsky.
+\newblock Toward patient safety in closed-loop medical device systems.
+\newblock In {\em ACM/IEEE International Conference on Cyber-Physical Systems},
+  pages 33--38, 2010.
+
+\bibitem{RIGHT}
+Ronald~D Berger et~al.
+\newblock {The Rhythm ID Going Head to Head Trial (RIGHT): Design of a
+  Randomized Trial Comparing Competitive Rhythm Discrimination Algorithms in
+  Implantable Cardioverter Defibrillators}.
+\newblock {\em Journal of Cardiovascular Electrophysiology}, 17(7):749--753,
+  2006.
+
+\bibitem{RIGHTresults}
+Michael~R. Gold, Saleem Ahmad, Kevin Browne, Kellie~Chase Berg, Lisa Thackeray,
+  and Ronald~D. Berger.
+\newblock {Prospective comparison of discrimination algorithms to prevent
+  inappropriate ICD therapy: Primary results of the Rhythm ID Going Head to
+  Head Trial }.
+\newblock {\em Heart Rhythm}, 9(3):370 -- 377, 2012.
+
+\bibitem{melillo2014climate}
+Jerry~M Melillo, TC~Richmond, and Gary~W Yohe.
+\newblock Climate change impacts in the united states: the third national
+  climate assessment.
+\newblock {\em US Global change research program}, 841, 2014.
+
+\bibitem{noaa}
+NOAA National~Centers for Environmental~Information.
+\newblock State of the climate: Global analysis for august 2015.
+\newblock [published online September 2015, retrieved on October 15, 2015 from
+  http://www.ncdc.noaa.gov/sotc/global/201508.].
+
+\bibitem{volatility}
+PJM~Interconnection Michael J.~Kormos.
+\newblock Pjm response to consumer reports on 2014 winter pricing.
+\newblock 2014.
+
+\bibitem{goldman2010coordination}
+Charles Goldman.
+\newblock Coordination of energy efficiency and demand response.
+\newblock {\em Lawrence Berkeley National Laboratory}, 2010.
+
+\bibitem{federal2008assessment}
+Federal Energy~Regulatory Commission et~al.
+\newblock Assessment of demand response and advanced metering.
+\newblock 2012.
+
+\bibitem{pjm}
+PJM Interconnection.
+\newblock 2014 demand response operations markets activity report.
+\newblock 2014.
+
+\bibitem{navigant}
+Navigant Research.
+\newblock Demand response for commercial \& industrial markets market players
+  and dynamics, key technologies, competitive overview, and global market
+  forecasts.
+\newblock 2015.
+
+\bibitem{Crawley2001319}
+Drury~B Crawley, Linda~K. Lawrie, et~al.
+\newblock Energyplus: creating a new-generation building energy simulation
+  program.
+\newblock 33(4):319 -- 331, 2001.
+
+\bibitem{sturzeneggermodel}
+D.~Sturzenegger, D.~Gyalistras, M.~Morari, and R.S. Smith.
+\newblock Model predictive climate control of a swiss office building:
+  Implementation, results, and cost-benefit analysis.
+\newblock {\em Control Systems Technology, IEEE Transactions on}, 2015.
+
+\bibitem{dr_advisor}
+Madhur Behl and Rahul Mangharam.
+\newblock Sometimes, money does grow on trees: Data-driven demand response with
+  dr-advisor.
+\newblock In {\em Proceedings of the 2Nd ACM International Conference on
+  Embedded Systems for Energy-Efficient Built Environments}, BuildSys '15,
+  pages 137--146, New York, NY, USA, 2015. ACM.
+
+\bibitem{kreider1994predicting}
+J.~F Kreider and J.~S Haberl.
+\newblock Predicting hourly building energy use: The great energy predictor
+  shootout--overview and discussion of results.
+\newblock Technical report, Am. Society of Heating, Refrigerating and
+  Air-Conditioning Engineers, Inc.,, 1994.
+
+\bibitem{wireless-ind}
+A.~Willig, K.~Matheus, and A.~Wolisz.
+\newblock { Wireless technology in industrial networks}.
+\newblock {\em {Proceedings of the IEEE}}, 2005.
+
+\bibitem{ncs_stability}
+W.~Zhang, M.S. Branicky, and S.M. Phillips.
+\newblock Stability of networked control systems.
+\newblock {\em IEEE Control Systems Magazine}, 21(1):84--99, 2001.
+
+\bibitem{ncs_survey}
+J.~P. Hespanha, P.~Naghshtabrizi, and Y.~Xu.
+\newblock A survey of recent results in networked control systems.
+\newblock {\em Proceedings of the IEEE, Special Issue on Technology of
+  Networked Control Systems}, 95(1):138 -- 162, 2007.
+
+\bibitem{chenyang}
+A.~Saifullah, Y.~Xu, C.~Lu, and Y.~Chen.
+\newblock {Real-Time Scheduling for WirelessHART Networks}.
+\newblock In {\em 31st IEEE Real-Time Systems Symposium}, pages 150 --159,
+  2010.
+
+\bibitem{evm_rtas10}
+M.~Pajic and R.~Mangharam.
+\newblock Embedded virtual machines for robust wireless control and actuation.
+\newblock In {\em RTAS{\textquoteright}10: 16th IEEE Real-Time and Embedded
+  Technology and Applications Symposium}, pages 79--88, 2010.
+
+\bibitem{alur_tac11}
+R.~Alur, A.D'Innocenzo, K.~H. Johansson, G.~J. Pappas, and G.~Weiss.
+\newblock {Compositional modeling and analysis of multi-hop control networks}.
+\newblock {\em IEEE Transactions on Automatic Control}, 56(10):2345--2357, Oct.
+  2011.
+
+\bibitem{sched_TTA_HART}
+G.~Fiore, V.~Ercoli, A.J. Isaksson, K.~Landern\"{a}s, and M.~D. Di~Benedetto.
+\newblock {Multi-hop Multi-channel Scheduling for Wireless Control in
+  WirelessHART Networks}.
+\newblock In {\em {IEEE Conference on Emerging Technology \& Factory
+  Automation}}, pages 1 -- 8, 2009.
+
+\bibitem{sched_TTA_scal}
+A.~D'Innocenzo, G.~Weiss, R.~Alur, A.J. Isaksson, K.H. Johansson, and G.J.
+  Pappas.
+\newblock {Scalable scheduling algorithms for wireless networked control
+  systems}.
+\newblock In {\em CASE'09: IEEE International Conference on Automation Science
+  and Engineering}, pages 409--414, 2009.
+
+\bibitem{etherware}
+S.~Graham, G.~Baliga, and P.R. Kumar.
+\newblock Abstractions, architecture, mechanisms, and a middleware for
+  networked control.
+\newblock {\em IEEE Transactions on Automatic Control}, 54(7):1490--1503, 2009.
+
+\bibitem{evm_tecs11}
+M.~Pajic and R.~Mangharam.
+\newblock Òrobust architectures for embedded wireless network control and
+  actuation.Ó.
+\newblock In {\em ACM Transactions of Embedded Computing Systems (TECS)}, 2011.
+
+\bibitem{wcn_tac11}
+M.~Pajic, S.~Sundaram, G.~J. Pappas, and R.~Mangharam.
+\newblock {The Wireless Control Network: A New Approach for Control over
+  Networks}.
+\newblock {\em IEEE Transactions on Automatic Control}, 56(10):2305--2318,
+  2011.
+
+\bibitem{JIISc_distrCPS}
+Rahul Mangharam and Miroslav Pajic.
+\newblock {Distributed Control for Cyber-Physical Systems}.
+\newblock {\em Journal of the Indian Institute of Science}, 93(3):353--387,
+  2013.
+
+\bibitem{Hadjicostis02}
+C.~N. Hadjicostis and R.~Touri.
+\newblock Feedback control utilizing packet dropping network links.
+\newblock In {\em Proceedings of the 41st IEEE Conference on Decision and
+  Control}, pages 1205--1210, 2002.
+
+\bibitem{wcn_jsac12}
+M.~Pajic, R.~Mangharam, G.~J. Pappas, and S.~Sundaram.
+\newblock {Topological Conditions for In-Network Stabilization of Dynamical
+  Systems}.
+\newblock {\em IEEE Journal on Selected Areas in Communications},
+  31(4):794--807, 2013.
+
+\bibitem{wcn_cdc11}
+M.~Pajic, S.~Sundaram, G.~J. Pappas, and R.~Mangharam.
+\newblock {Topological Conditions for Wireless Control Networks}.
+\newblock In {\em Proceedings of the 50th IEEE Conference on Decision and
+  Control}, pages 2353--2360, 2011.
+
+\bibitem{Waldrop2015}
+M.~Mitchell Waldrop.
+\newblock Autonomous vehicles: No drivers required.
+\newblock {\em Nature}, 518(7537):20--23, feb 2015.
+
+\bibitem{weld1994first}
+Daniel Weld and Oren Etzioni.
+\newblock The first law of robotics (a call to arms).
+\newblock In {\em AAAI}, volume~94, pages 1042--1047, 1994.
+
+\bibitem{Iozzio2014}
+Corinne Iozzio.
+\newblock Street-legal robots.
+\newblock {\em Sci Am}, 311(2):20--20, jul 2014.
+
+\bibitem{volvo15Liability}
+Volvo press release: {US} urged to establish nationwide federal guidelines for
+  autonomous driving.
+\newblock 2015.
+
+\bibitem{maurer2015autonomes}
+Markus Maurer, J~Christian Gerdes, Barbara Lenz, and Hermann Winner.
+\newblock {\em Autonomes Fahren: Technische, rechtliche und gesellschaftliche
+  Aspekte}.
+\newblock Springer-Verlag, 2015.
+
+\bibitem{russell2015research}
+Stuart Russell, Daniel Dewey, Max Tegmar, Anthony Aguirre, Erik Brynjolfsson,
+  Ryan Calo, Tom Dietterich, Dileep George, Bill Hibbard, Demis Hassabis,
+  et~al.
+\newblock Research priorities for robust and beneficial artificial
+  intelligence.
+\newblock 2015.
+
+\bibitem{buehler2009darpa}
+Martin Buehler, Karl Iagnemma, and Sanjiv Singh.
+\newblock {\em The DARPA Urban Challenge: Autonomous vehicles in city traffic},
+  volume~56.
+\newblock springer, 2009.
+
+\bibitem{fletcher2008cornell}
+Luke Fletcher, Seth Teller, Edwin Olson, David Moore, Yoshiaki Kuwata, Jonathan
+  How, John Leonard, Isaac Miller, Mark Campbell, Dan Huttenlocher, et~al.
+\newblock The mit--cornell collision and why it happened.
+\newblock {\em Journal of Field Robotics}, 25(10):775--807, 2008.
+
+\bibitem{urmson2008autonomous}
+Chris Urmson, Joshua Anhalt, Drew Bagnell, Christopher Baker, Robert Bittner,
+  MN~Clark, John Dolan, Dave Duggins, Tugrul Galatali, Chris Geyer, et~al.
+\newblock Autonomous driving in urban environments: Boss and the urban
+  challenge.
+\newblock {\em Journal of Field Robotics}, 25(8):425--466, 2008.
+
+\bibitem{gao2013satisfiability}
+Sicun Gao, Soonho Kong, and Edmund~M Clarke.
+\newblock Satisfiability modulo odes.
+\newblock In {\em Formal Methods in Computer-Aided Design (FMCAD), 2013}, pages
+  105--112. IEEE, 2013.
+
+\bibitem{diamandis2015bold}
+P.H. Diamandis and S.~Kotler.
+\newblock {\em Bold: How to Go Big, Create Wealth and Impact the World}.
+\newblock Simon Schuster, 2015.
+
+\bibitem{powerNagoya}
+S.~Kato and R.~Mangharam.
+\newblock private communication, 2015.
+
+\bibitem{nreladvisor}
+K.~Wipke, M.~Cuddy, D.~Bharathan, S.~Burch, V.~Johnson, A.~Markel, and
+  S.~Sprik.
+\newblock Advisor 2.0: A second generation advanced vehicle simulator for
+  systems analysis.
+\newblock {\em Technical Report}, 1999.
+
+\bibitem{boddy}
+M.~Boddy and T.L. Dean.
+\newblock {Solving Time-dependent Planning Problems}.
+\newblock {\em Joint Conf. on AI}, pages 979--984, 1989.
+
+\bibitem{zilbersteinAImag}
+Shlomo Zilberstein.
+\newblock Using anytime algorithms in intelligent systems.
+\newblock {\em AI Magazine}, 17(3), 1996.
+
+\bibitem{RTSS15}
+Y.V. Pant, H.~Abbas, K.~Mohta, T.X. Nghiem, J.~Devietti, and R.~Mangharam.
+\newblock Co-design of anytime computation and robust control.
+\newblock In {\em Proc. of the IEEE Real Time Systems Symposium}, 2015.
+
+\bibitem{Complex15}
+Y.V. Pant, H.~Abbas, K.N. Nischal, P.~Kelkar, D.~Kumar, J.~Devietti, and
+  R.~Mangharam.
+\newblock Power efficient algorithms for autonomous navigation.
+\newblock In {\em Proc. of the IEEE International Conference on Complex Systems
+  Engineering}, 2015.
+
+\end{thebibliography}
